@@ -6,6 +6,7 @@ setup(name='compact_stars_utils',
       url='https://github.com/rsouza01/compact.stars.utils',
       author='Rodrigo Souza',
       author_email='rsouza01@gmail.com',
+      package_dir={'compact_stars_utils':['src/compact.stars.utils']},
       license='GNU2',
       packages=['compact_stars_utils'],
       zip_safe=False)

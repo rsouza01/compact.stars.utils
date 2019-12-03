@@ -16,31 +16,31 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 # 02110-1301, USA.
 
-LENGTH_TO_KM            = 1e-5
+LIGHT_SPEED 			= 2.998e8  # m/s
+GRAVITATIONAL_CONSTANT	= 6.67259e-11  # m3 kg-1 s-2 OU N m2 kg-2
 
-LIGHT_SPEED 			= 2.998e10
-LIGHT_SPEED_SQUARED 	= 8.9880e20
-GRAVITATIONAL_CONSTANT	= 6.67259e-8
+PLANCK_CONSTANT_H 		= 6.6261e-34  # J s
+PLANCK_CONSTANT_H_BAR 	= 1.0546e-34  # J s
+BOLTZMANN_CONSTANT 		= 1.38064852e-23  # J K-1
 
-PLANCK_CONSTANT_H 		= 1
-PLANCK_CONSTANT_H_BAR 	= 1
-BOLTZMANN_CONSTANT 		= 1
+SUN_MASS                = 1.9891e30 # kilograms
+SUN_RADIUS 				= 6.959e8  # m
+SUN_RADIUS_KM 			= 6.959e5  # kmm
 
-SUN_MASS                = 1.9891e33 # grams
-SUN_RADIUS 				= 6.959e10  # cm
-
-QUARK_UP_MASS			= 5    # MeV
+QUARK_UP_MASS		    = 5    # MeV
 QUARK_DOWN_MASS			= 7    # MeV
 QUARK_STRANGE_MASS		= 150  # MeV
 
-MEV_TO_ERG              = 1.6021773e-6
-FM_TO_CM                = 1e-13
-FM3_TO_CM3              = 1e-39
 
-ERG_TO_MEV              = 6.24150647996e5
-CM_TO_FM                = 1e13
-CM3_TO_FM3              = 1e39
+# SI <-> Nuc
+MEV_TO_JOULE            = 1.6021773e-13
+FM_TO_M                 = 1e-15
+FM3_TO_M3               = 1e-45
 
-CM_TO_KM                = 1e-5
+JOULE_TO_MEV            = 6.24150647996e12
+M_TO_FM                 = 1e15
+M3_TO_FM3               = 1e45
 
+
+# TODO: Colocar a conversão de MeV
 
